@@ -1,6 +1,6 @@
 cask "vellum-md" do
-  version "1.5.2"
-  sha256 "b9e7241c80d416c11bf621bfef3fb056d71fa3ea0f1fbf70d064db95f95e9198"
+  version "1.5.3"
+  sha256 "ba3be5ccab34e8e82f190b95b86cf49fb09ddf83b206cb905de755bc7ea096a5"
 
   url "https://github.com/faisalmirza/vellum/releases/download/v#{version}/Vellum-#{version}.zip"
   name "Vellum"
