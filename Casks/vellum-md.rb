@@ -1,6 +1,6 @@
 cask "vellum-md" do
-  version "1.5.1"
-  sha256 "1ce4d6f87eb828be6dd9a89466ff61a75b38b4413dec395d37a6385d1442d4d3"
+  version "1.5.2"
+  sha256 "b9e7241c80d416c11bf621bfef3fb056d71fa3ea0f1fbf70d064db95f95e9198"
 
   url "https://github.com/faisalmirza/vellum/releases/download/v#{version}/Vellum-#{version}.zip"
   name "Vellum"
@@ -12,7 +12,7 @@ cask "vellum-md" do
   app "Vellum.app"
 
   zap trash: [
-    "~/Library/Preferences/com.faisalmirza.efemde.plist",
-    "~/Library/Saved Application State/com.faisalmirza.efemde.savedState",
+    "~/Library/Preferences/com.faisalmirza.vellum.plist",
+    "~/Library/Saved Application State/com.faisalmirza.vellum.savedState",
   ]
 end
