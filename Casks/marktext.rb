@@ -2,12 +2,12 @@ cask "marktext" do
   version "0.17.1-custom"
 
   on_arm do
-    sha256 "4d1007cb069bb243cfe10cd0f58f3772401a81ba8b55d008181048aca48d19eb"
+    sha256 "16ce2d40917f8e27f9ce8debf5d0db40e879c915ef7d76317350a2faa0b1737c"
     url "https://github.com/faisalmirza/marktext/releases/download/v#{version}/marktext-arm64.dmg"
   end
 
   on_intel do
-    sha256 "094882139ec2a699e3c290d2650bdfc2c3d0a369eb51a5a83e8045ed1e68f149"
+    sha256 "1807f7a4184ef2805cbc4416d2252519a64eeb2ec19bbcaf1ee1b12bcb676357"
     url "https://github.com/faisalmirza/marktext/releases/download/v#{version}/marktext-x64.dmg"
   end
 
