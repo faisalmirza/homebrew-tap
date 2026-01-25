@@ -3,8 +3,8 @@ cask "efemde" do
   sha256 "b2cff3daae91bd16423d637d364a4525ac25bc2151eda6c953f1ee4a8fd02381"
 
   url "https://github.com/faisalmirza/efemde/releases/download/v#{version}/efemde-1.0-macos.zip"
-  name "efemde"
-  desc "Fast markdown editor for macOS with live preview"
+  name "F-MD"
+  desc "Fast markdown viewer + editor"
   homepage "https://github.com/faisalmirza/efemde"
 
   depends_on macos: ">= :ventura"
