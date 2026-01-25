@@ -1,6 +1,6 @@
 cask "f-md" do
-  version "1.1.0"
-  sha256 "06a676f88ffac7073e5e50fc963b86c1591defe5ba9b211b506d560e2a706b4c"
+  version "1.2.0"
+  sha256 "6a08171c045e4720c9718510920e51c61c46ef2040ddc3ad50525e4a6a3e6091"
 
   url "https://github.com/faisalmirza/f-md/releases/download/v#{version}/F-MD-#{version}-macos.zip"
   name "F-MD"
