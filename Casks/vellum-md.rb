@@ -7,7 +7,7 @@ cask "vellum-md" do
   desc "Fast markdown viewer for macOS"
   homepage "https://github.com/faisalmirza/vellum"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Vellum.app"
 
